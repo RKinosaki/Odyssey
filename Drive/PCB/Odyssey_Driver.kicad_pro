@@ -714,7 +714,7 @@
         "uuid": "03f24855-c8fb-4bed-b557-a70f2cb77266"
       }
     ],
-    "used_designators": "C13,IC6,R1-2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
@@ -740,7 +740,7 @@
     ],
     [
       "55b13afb-50cf-4b15-bcd5-d97201854aaa",
-      "ESP32-S3"
+      "ESP32-C6"
     ]
   ],
   "text_variables": {},
