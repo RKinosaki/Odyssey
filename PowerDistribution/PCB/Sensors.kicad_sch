@@ -2228,7 +2228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4efde46a-e914-4a36-b6f0-16179f1b3d6e")
-		(property "Reference" "IC9"
+		(property "Reference" "IC6"
 			(at 194.31 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2376,7 +2376,7 @@
 		(instances
 			(project "LabRover_PDB"
 				(path "/1fc67981-3095-4915-bfe8-a1a01c138c0d/0940b463-1e23-448c-ab36-d79df28b12e9"
-					(reference "IC9")
+					(reference "IC6")
 					(unit 1)
 				)
 			)
@@ -2394,7 +2394,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52e2e512-8a68-4b9d-bf7a-4150aaf656fc")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR030"
 			(at 229.87 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -2454,7 +2454,7 @@
 		(instances
 			(project "LabRover_PDB"
 				(path "/1fc67981-3095-4915-bfe8-a1a01c138c0d/0940b463-1e23-448c-ab36-d79df28b12e9"
-					(reference "#PWR046")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -2551,7 +2551,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58463dd5-7393-4987-a266-9fecca97b1e4")
-		(property "Reference" "R27"
+		(property "Reference" "R10"
 			(at 147.32 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2615,7 +2615,7 @@
 		(instances
 			(project "LabRover_PDB"
 				(path "/1fc67981-3095-4915-bfe8-a1a01c138c0d/0940b463-1e23-448c-ab36-d79df28b12e9"
-					(reference "R27")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -2633,7 +2633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b5b3b99-cd68-48a8-bada-e5d67eabff0a")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR022"
 			(at 165.1 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -2694,7 +2694,7 @@
 		(instances
 			(project "LabRover_PDB"
 				(path "/1fc67981-3095-4915-bfe8-a1a01c138c0d/0940b463-1e23-448c-ab36-d79df28b12e9"
-					(reference "#PWR021")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -2712,7 +2712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a21a39f-7de1-4d28-9206-626ce7f79edb")
-		(property "Reference" "R10"
+		(property "Reference" "R11"
 			(at 210.82 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2776,7 +2776,7 @@
 		(instances
 			(project "LabRover_PDB"
 				(path "/1fc67981-3095-4915-bfe8-a1a01c138c0d/0940b463-1e23-448c-ab36-d79df28b12e9"
-					(reference "R10")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -2794,7 +2794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "748b0333-84d8-43cf-b4b3-dd413b0c3c47")
-		(property "Reference" "IC3"
+		(property "Reference" "IC5"
 			(at 184.15 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2936,7 +2936,7 @@
 		(instances
 			(project "LabRover_PDB"
 				(path "/1fc67981-3095-4915-bfe8-a1a01c138c0d/0940b463-1e23-448c-ab36-d79df28b12e9"
-					(reference "IC3")
+					(reference "IC5")
 					(unit 1)
 				)
 			)
@@ -2954,7 +2954,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81581c7d-b7b5-447f-92cf-85bd43a87d2c")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR020"
 			(at 130.81 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -3014,7 +3014,7 @@
 		(instances
 			(project "LabRover_PDB"
 				(path "/1fc67981-3095-4915-bfe8-a1a01c138c0d/0940b463-1e23-448c-ab36-d79df28b12e9"
-					(reference "#PWR019")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -3031,7 +3031,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "82e53576-e62e-4089-a47d-95cea3395d3a")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR023"
 			(at 171.45 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -3091,7 +3091,7 @@
 		(instances
 			(project "LabRover_PDB"
 				(path "/1fc67981-3095-4915-bfe8-a1a01c138c0d/0940b463-1e23-448c-ab36-d79df28b12e9"
-					(reference "#PWR038")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -3110,7 +3110,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9725bca3-efcc-4786-a296-6c09c11830ed")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR018"
 			(at 116.84 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3170,7 +3170,7 @@
 		(instances
 			(project "LabRover_PDB"
 				(path "/1fc67981-3095-4915-bfe8-a1a01c138c0d/0940b463-1e23-448c-ab36-d79df28b12e9"
-					(reference "#PWR036")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -3188,7 +3188,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a973237-4c6f-42a7-b103-529df3c092c7")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR019"
 			(at 130.81 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -3248,7 +3248,7 @@
 		(instances
 			(project "LabRover_PDB"
 				(path "/1fc67981-3095-4915-bfe8-a1a01c138c0d/0940b463-1e23-448c-ab36-d79df28b12e9"
-					(reference "#PWR018")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -3345,7 +3345,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c76f185-b6ef-4811-b193-db777c266fa9")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR031"
 			(at 229.87 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -3405,7 +3405,7 @@
 		(instances
 			(project "LabRover_PDB"
 				(path "/1fc67981-3095-4915-bfe8-a1a01c138c0d/0940b463-1e23-448c-ab36-d79df28b12e9"
-					(reference "#PWR047")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -3581,7 +3581,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c3f527ed-53a7-4b5b-8872-1bdabc96bffd")
-		(property "Reference" "R26"
+		(property "Reference" "R8"
 			(at 119.38 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3645,7 +3645,7 @@
 		(instances
 			(project "LabRover_PDB"
 				(path "/1fc67981-3095-4915-bfe8-a1a01c138c0d/0940b463-1e23-448c-ab36-d79df28b12e9"
-					(reference "R26")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -3664,7 +3664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4778a03-dbb5-47d0-b936-5623e475b01c")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR021"
 			(at 144.78 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -3724,7 +3724,7 @@
 		(instances
 			(project "LabRover_PDB"
 				(path "/1fc67981-3095-4915-bfe8-a1a01c138c0d/0940b463-1e23-448c-ab36-d79df28b12e9"
-					(reference "#PWR048")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -3820,7 +3820,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6e98b25-2993-4c80-b25e-e5a9118c2d1a")
-		(property "Reference" "R24"
+		(property "Reference" "R7"
 			(at 111.76 82.296 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3882,7 +3882,7 @@
 		(instances
 			(project "LabRover_PDB"
 				(path "/1fc67981-3095-4915-bfe8-a1a01c138c0d/0940b463-1e23-448c-ab36-d79df28b12e9"
-					(reference "R24")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -3900,7 +3900,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e193efb5-56fc-4d86-921b-e01f2da68fcd")
-		(property "Reference" "R25"
+		(property "Reference" "R9"
 			(at 139.7 82.296 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3962,7 +3962,7 @@
 		(instances
 			(project "LabRover_PDB"
 				(path "/1fc67981-3095-4915-bfe8-a1a01c138c0d/0940b463-1e23-448c-ab36-d79df28b12e9"
-					(reference "R25")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3980,7 +3980,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2a23fe0-cae1-4692-9a4f-6545206b44a5")
-		(property "Reference" "C6"
+		(property "Reference" "C5"
 			(at 233.68 95.2499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4044,7 +4044,7 @@
 		(instances
 			(project "LabRover_PDB"
 				(path "/1fc67981-3095-4915-bfe8-a1a01c138c0d/0940b463-1e23-448c-ab36-d79df28b12e9"
-					(reference "C6")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4062,7 +4062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb3b1b14-58ee-4920-b4ce-1099a68b6f2b")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR024"
 			(at 176.53 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -4122,7 +4122,7 @@
 		(instances
 			(project "LabRover_PDB"
 				(path "/1fc67981-3095-4915-bfe8-a1a01c138c0d/0940b463-1e23-448c-ab36-d79df28b12e9"
-					(reference "#PWR040")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4140,7 +4140,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fedde5a1-b409-49c1-ba4d-91fe838563fe")
-		(property "Reference" "IC2"
+		(property "Reference" "IC4"
 			(at 106.68 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4282,7 +4282,7 @@
 		(instances
 			(project "LabRover_PDB"
 				(path "/1fc67981-3095-4915-bfe8-a1a01c138c0d/0940b463-1e23-448c-ab36-d79df28b12e9"
-					(reference "IC2")
+					(reference "IC4")
 					(unit 1)
 				)
 			)

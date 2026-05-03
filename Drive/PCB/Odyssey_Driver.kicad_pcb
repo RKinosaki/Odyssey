@@ -148,7 +148,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "C:/Users/C1v2t/Desktop/Projects/Lab Rover/Odyssey/PCB/Motor Driver Board/Odyssey_Driver/Fabrication V2.0B/")
+			(outputdirectory "C:/Users/C1v2t/Desktop/Projects/Odyssey/Drive/PCB/Fabrication/")
 		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"

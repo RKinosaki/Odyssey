@@ -526,7 +526,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/C1v2t/Desktop/Projects/Lab Rover/Odyssey_Var_B/Power Distribution Board/PCB/Fabrication V2.0/",
+      "plot": "C:/Users/C1v2t/Desktop/Projects/Odyssey/PowerDistribution/PCB/Fabrication/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -731,7 +731,7 @@
         "uuid": "1fc67981-3095-4915-bfe8-a1a01c138c0d"
       }
     ],
-    "used_designators": "",
+    "used_designators": "C1-8,C10,C15-16,R1-35,R37-38,J1-9,IC1-12,SW1-2,SW10-11,U1-3,D1-8,#PWR1-48,#PWR54-62,F1,Q1",
     "variants": []
   },
   "sheets": [
@@ -749,7 +749,7 @@
     ],
     [
       "03fcb779-2e73-49a8-a14e-148bd67923fb",
-      "uC"
+      "ESP32_C3"
     ],
     [
       "3b63dde8-4127-4fac-864d-3d0d809a2669",
