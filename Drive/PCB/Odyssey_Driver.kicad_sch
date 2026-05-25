@@ -430,16 +430,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 78.74) (xy 146.685 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06b61ad5-602d-4fe7-98af-0cd27d7bc719")
-	)
-	(wire
-		(pts
 			(xy 154.94 41.91) (xy 138.43 41.91)
 		)
 		(stroke
@@ -660,16 +650,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 81.28) (xy 146.685 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37cdcea3-850e-49c0-8d1e-bb42df56861a")
-	)
-	(wire
-		(pts
 			(xy 154.94 26.67) (xy 148.59 26.67)
 		)
 		(stroke
@@ -790,6 +770,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.685 78.74) (xy 149.86 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78616bbd-d509-47a5-b585-4255ade7498f")
+	)
+	(wire
+		(pts
 			(xy 157.48 60.96) (xy 146.05 60.96)
 		)
 		(stroke
@@ -857,6 +847,16 @@
 			(type default)
 		)
 		(uuid "9eb74a18-78f0-4793-be12-4912a20ede54")
+	)
+	(wire
+		(pts
+			(xy 146.685 81.28) (xy 149.86 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a595ba35-244d-4ac3-95f8-9285f403d7c6")
 	)
 	(wire
 		(pts
@@ -1169,7 +1169,7 @@
 		(uuid "737974a1-f5cf-4872-abfa-6e82d00b6330")
 	)
 	(label "SCL"
-		(at 149.225 78.74 0)
+		(at 149.86 78.74 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1289,7 +1289,7 @@
 		(uuid "ca9c2dca-698b-4c91-88a9-5c90265a7c18")
 	)
 	(label "SDA"
-		(at 149.225 81.28 0)
+		(at 149.86 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
