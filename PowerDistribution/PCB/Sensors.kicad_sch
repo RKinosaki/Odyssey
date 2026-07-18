@@ -1462,7 +1462,7 @@
 		(uuid "99d414b5-2d04-4c5b-bb5d-e8e1aa3d9f63")
 	)
 	(rectangle
-		(start 95.25 76.835)
+		(start 93.98 76.835)
 		(end 238.76 128.27)
 		(stroke
 			(width 0)
@@ -1891,6 +1891,17 @@
 	)
 	(hierarchical_label "SCL"
 		(shape input)
+		(at 60.96 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4df4493d-73e9-46ab-b14f-4b02a4b06642")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
 		(at 93.98 40.64 180)
 		(effects
 			(font
@@ -1965,6 +1976,17 @@
 			(justify left)
 		)
 		(uuid "cdfca04e-5e0f-434d-98dc-40ba5cb6e7ac")
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 49.53 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e37d7432-ff6a-4317-8749-1b435196cd21")
 	)
 	(hierarchical_label "V_{BATT}"
 		(shape input)
@@ -2051,6 +2073,167 @@
 			(project "LabRover_PDB"
 				(path "/1fc67981-3095-4915-bfe8-a1a01c138c0d/0940b463-1e23-448c-ab36-d79df28b12e9"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 60.96 40.64 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f5ff49e-50d9-46d7-9094-835ec912ed4e")
+		(property "Reference" "R34"
+			(at 63.5 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 63.5 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 62.738 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "75617543-fe49-4f49-b537-e14b4fc61b76")
+		)
+		(pin "1"
+			(uuid "b68ef244-9a09-4588-84c8-799f9d82f1f1")
+		)
+		(instances
+			(project "LabRover_PDB"
+				(path "/1fc67981-3095-4915-bfe8-a1a01c138c0d/0940b463-1e23-448c-ab36-d79df28b12e9"
+					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 60.96 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "23c324a7-7552-4748-8f0f-b7cf5daf9924")
+		(property "Reference" "#PWR050"
+			(at 60.96 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 60.96 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 60.96 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "379ab9a6-b4e8-4e0d-a714-06aa539094bf")
+		)
+		(instances
+			(project "LabRover_PDB"
+				(path "/1fc67981-3095-4915-bfe8-a1a01c138c0d/0940b463-1e23-448c-ab36-d79df28b12e9"
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -2211,6 +2394,89 @@
 			(project "LabRover_PDB"
 				(path "/1fc67981-3095-4915-bfe8-a1a01c138c0d/0940b463-1e23-448c-ab36-d79df28b12e9"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 49.53 40.64 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37d6cf9e-5fe0-4a79-a3c3-f8a4de684580")
+		(property "Reference" "R33"
+			(at 52.07 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 52.07 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 51.308 40.64 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 49.53 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "384fcbe6-cdef-44cc-9b1e-2c3ef82aef0d")
+		)
+		(pin "1"
+			(uuid "d7ea4cfb-8390-4d5e-977d-d3241a3845fd")
+		)
+		(instances
+			(project "LabRover_PDB"
+				(path "/1fc67981-3095-4915-bfe8-a1a01c138c0d/0940b463-1e23-448c-ab36-d79df28b12e9"
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -3406,6 +3672,84 @@
 			(project "LabRover_PDB"
 				(path "/1fc67981-3095-4915-bfe8-a1a01c138c0d/0940b463-1e23-448c-ab36-d79df28b12e9"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 49.53 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf235f85-3884-4acf-a9b6-a5c9146bfc9a")
+		(property "Reference" "#PWR049"
+			(at 49.53 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 49.53 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 49.53 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "530ef041-2ed2-4e63-90b6-de65f87febf6")
+		)
+		(instances
+			(project "LabRover_PDB"
+				(path "/1fc67981-3095-4915-bfe8-a1a01c138c0d/0940b463-1e23-448c-ab36-d79df28b12e9"
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
