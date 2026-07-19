@@ -2514,7 +2514,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:SOP50P490X110-10N"
+		(property "Footprint" "Footprints:ADS1015BQDGSRQ1"
 			(at 208.28 182.55 0)
 			(hide yes)
 			(show_name no)
@@ -3080,7 +3080,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "Footprints:INA219AIDR"
 			(at 193.04 139.37 0)
 			(hide yes)
 			(show_name no)
@@ -4504,7 +4504,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOP65P490X110-8N"
+		(property "Footprint" "Footprints:LM75BDP,118"
 			(at 115.57 133.02 0)
 			(hide yes)
 			(show_name no)

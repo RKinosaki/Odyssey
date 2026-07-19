@@ -1682,7 +1682,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical"
+		(property "Footprint" "Footprints:XT30"
 			(at 76.2 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -1776,7 +1776,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "Footprints:SI4162DY-T1-GE3"
 			(at -2.21 50.8 0)
 			(hide yes)
 			(show_name no)

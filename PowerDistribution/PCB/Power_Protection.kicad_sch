@@ -3719,7 +3719,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CAPPM3528X210N"
+		(property "Footprint" "Footprints:TAJB226K020RNJ"
 			(at 215.57 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -4529,7 +4529,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-5N"
+		(property "Footprint" "Footprints:SN74LVC1G08DBVR"
 			(at 72.39 146.99 0)
 			(hide yes)
 			(show_name no)
@@ -5015,7 +5015,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_AMASS:AMASS_XT90PW-M_1x02_P10.90mm_Horizontal"
+		(property "Footprint" "Footprints:AMASS_XT90PW-M"
 			(at 45.72 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -5253,7 +5253,7 @@
 				)
 			)
 		)
-		(property "Footprint" "01530008"
+		(property "Footprint" "Footprints:01530008"
 			(at 147.32 -74.6 0)
 			(hide yes)
 			(show_name no)
@@ -5564,7 +5564,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "CAPPM3528X210N"
+		(property "Footprint" "Footprints:TAJB226K020RNJ"
 			(at 73.99 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -5787,7 +5787,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT230P700X180-4N"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 166.37 225.73 0)
 			(hide yes)
 			(show_name no)
@@ -6172,7 +6172,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "Footprints:SI4162DY-T1-GE3"
 			(at 24.46 40.64 0)
 			(hide yes)
 			(show_name no)
